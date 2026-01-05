@@ -1,0 +1,12 @@
+body.lock-bg-active {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+body.lock-bg-active #board, 
+body.lock-bg-active #ui-middle,
+body.lock-bg-active #canvas-container {
+    background: transparent !important;
+}
